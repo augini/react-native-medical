@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import React from 'react';
 import {StyleSheet, View, Image} from 'react-native';
 import {Icon} from 'react-native-elements';
@@ -9,7 +8,7 @@ const index = () => {
     <View style={styles.header}>
       <Image
         style={styles.logoImage}
-        source={images.homeLogo}
+        source={{uri: 'https://pixabay.com/images/search/dog/'}}
         resizeMode="contain"
       />
       <View style={styles.logoContainer}>

@@ -12,7 +12,9 @@
         "ios": "react-native run-ios",
         "start": "react-native start",
         "test": "jest",
-        "lint": "eslint ."
+        "lint": "eslint .",
+        "storybook": "start-storybook -p 7007",
+        "prestorybook": "rnstl"
     },
     "dependencies": {
         "@react-native-community/hooks": "^2.6.0",
@@ -25,13 +27,29 @@
         "@babel/core": "7.10.5",
         "@babel/runtime": "7.10.5",
         "@react-native-community/eslint-config": "1.1.0",
+        "@storybook/addon-actions": "^5.3.19",
+        "@storybook/addon-links": "^5.3.19",
+        "@storybook/addons": "^5.3.19",
+        "@storybook/react-native": "^5.3.19",
+        "@storybook/react-native-server": "^5.3.19",
         "babel-jest": "25.5.1",
+        "babel-loader": "^8.1.0",
         "eslint": "6.8.0",
         "jest": "25.5.4",
         "metro-react-native-babel-preset": "0.59.0",
+        "react-dom": "^16.13.1",
+        "react-native-storybook-loader": "^2.0.2",
         "react-test-renderer": "16.13.1"
     },
     "jest": {
         "preset": "react-native"
+    },
+    "config": {
+        "react-native-storybook-loader": {
+            "searchDir": [
+                "./App"
+            ],
+            "pattern": "**/*.stories.js"
+        }
     }
 }
