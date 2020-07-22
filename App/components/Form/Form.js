@@ -17,7 +17,8 @@ export default ({children, header, subheader}) => (
 
 const styles = StyleSheet.create({
   container: {
-    marginHorizontal: 20,
+    marginHorizontal: 30,
+    marginVertical: 20,
     flex: 1,
   },
   headerText: {
