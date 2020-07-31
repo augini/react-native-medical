@@ -21,6 +21,7 @@ export default Screen;
 
 const styles = StyleSheet.create({
   screen: {
+    paddingTop: 100,
     flex: 1,
   },
 });
