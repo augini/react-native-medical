@@ -28,12 +28,10 @@ const styles = StyleSheet.create({
   labelText: {
     color: colors.gray,
     fontSize: 18,
-    marginBottom: 10,
   },
   messageText: {
     color: colors.gray,
     fontSize: 13,
-    marginTop: 5,
   },
   messageSuccess: {
     color: colors.success,

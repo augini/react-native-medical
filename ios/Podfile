@@ -8,7 +8,7 @@ target 'AwesomeProject' do
 
   use_react_native!(:path => config["reactNativePath"])
 
-
+  pod 'GoogleSignIn', '~> 5.0.2'
 
   target 'AwesomeProjectTests' do
     inherit! :complete

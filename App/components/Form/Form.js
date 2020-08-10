@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   topRow: {
-    marginBottom: 28,
+    marginBottom: 20,
   },
   subHeaderText: {
     color: colors.gray,
