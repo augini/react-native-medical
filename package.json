@@ -19,7 +19,7 @@
     "dependencies": {
         "@react-native-community/google-signin": "^4.0.3",
         "@react-native-community/hooks": "^2.6.0",
-        "axios": "^0.19.2",
+        "axios": "^0.21.1",
         "qs": "^6.9.4",
         "react": "16.13.1",
         "react-native": "0.63.1",
